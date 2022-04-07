@@ -78,7 +78,7 @@ namespace SaberInteractive
             if (_tail == null)
             {
                 _head = listNode;
-                _head.Random = Head;
+                _head.Random = _head;
                 _tail = listNode;
             }
             else
